@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>DOCUKOTA</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand app-logo-title" href="index.html">
+            <img class="app-logo" src="assets/images/logo-app.png" />
+            &nbsp;<span class="app-logo-title-txt">DOCUKOTA-RECO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        ABOUT
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="selection.html">
+                        SELECTION
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="attribution.html">
+                        ATTRIBUTION
+                    </a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <div class="logout-box">
+                    <img class="btn-logout-img float-right" width="100%" src="assets/images/logout.png">
+                </div>
+            </span>
+        </div>
+    </nav>
+    <main class="mx-auto my-auto h-100" id="main-content">
+        <div class="my-auto mx-auto w-75 h-100">
+            <div class="jumbotron w-100 mx-auto h-25">
+                <h3 class="page-title">SELECTION-ARTICLES</h3>
+                <p class="page-subtitle">FILTRAGE DES ARTICLES SELON LES INFORMATIONS PRIMAIRES (TITRE, IMAGE, MOTS-CLES
+                    ET DESCRIPTION).</p>
+                <hr class="my-4">
+                <div class="text-center mx-auto">
+                    <button class="btn btn-danger btn-sm mx-auto text-uppercase" role="button">
+                        <span id="nbr-article" class="nbr-articles">2</span> &nbsp;
+                        Article(s) à évaluer
+                    </button>
+                </div>
+            </div>
+
+            <div class="container w-100">
+                <div class="row justify-content-center w-100">
+                    <div class="selection-card-view selected col col-lg-6">
+                        <div class="card">
+                            <img alt="IMG NOT FOUND" class="card-img-top img-thumbnail rounded d-block"
+                                src="https://www.developpez.net/forums/attachments/p288914d1/a/a/a">
+                            <div class="card-body">
+                                <h5 class="card-title">TypeScript: Why? When? How? (S. Pontoreau&amp; F. Billon)</h5>
+                                <span class="badge badge-info">typescript</span>
+                                <span class="badge badge-info">javascript-langages</span>
+                                <span class="badge badge-info">new-edge-javascript</span>
+                                <p class="card-text">
+                                    Actuellement en plein essor, TypeScript agrandement évolué depuis ses débuts. 
+                                    Il est aujourd'hui un élément clé, autant pour les développeurs Frontend que Backend avec Node.js.
+                                    Vous ne l'utilisez pas encore? Alors cette session est faite pour vous! Venez découvrir son 
+                                    fonctionnement et comment le mettre en œuvre dès aujourd'hui dans vos projets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selection-card-view  col col-lg-6">
+                        <div class="card">
+                            <img alt="IMG NOT FOUND" class="card-img-top img-thumbnail rounded d-block"
+                                src="https://media.24joursdeweb.fr/2018/12/dessin-css-vinyl.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Dessiner en CSS, c'est facile ! (C. Hui Bon Hoa)</h5>
+                                <span class="badge badge-info">css</span>
+                                <span class="badge badge-info">dessin</span>
+                                <span class="badge badge-info">design</span>
+                                <span class="badge badge-info">theming</span>
+                                <p class="card-text">
+                                    Tout le monde connaît CSS, pour s’être arraché quelques cheveux en
+                                    essayant d’aligner des éléments, rendre un site responsive ou juste pour essayer de
+                                    rendre le côté front attractif.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
+            <a href="attribution.html" class="btn btn-success w-100">CONTINUER</a>
+            <br>
+            <br>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("../assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url("../assets/fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url("../assets/fonts/Ubuntu-Light.ttf") format("truetype");
+}
+
+#app-page {
+    height: 95vh !important;
+}
+
+.bg-dark {
+    background-color: #C51942 !important;
+}
+
+.navbar-brand {
+    font-family: Ubuntu-Bold;
+    padding: 0px;
+    margin: 0px;
+    width: 35%;
+}
+
+.app-logo {
+    height: 2.3rem;
+}
+
+.logout-box :hover{
+    cursor: pointer;
+}
+
+.program-title {
+    color: #C51942;
+}
+
+.docukota-title {
+    color: #C51942 !important;
+}
+
+.referentiel-criteres {
+    width: 100%;
+    height: 100%;
+    background-color: #E79992;
+    border: 1px solid #C51942;
+    border-radius: 7px;
+    overflow: hidden
+}
+
+.referentiel-criteres .container {
+    background-color: #BD574E;
+    padding: 10px 0 8px;
+    z-index: 1;
+}
+
+.referentiel-criteres .container .title {
+    font-family: 'Ubuntu Mono', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.15;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center
+}
+
+
+.referentiel-criteres .content .icon img{
+    width: 100%;
+}
+
+.criterion-container {
+    padding: auto;
+}
+
+.criterion-title {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.15;
+    color: #fff;
+}
+
+
+.criterion-description {
+    font-family: 'Ubuntu-Light', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 1;
+    color: #fff;
+}
+
+
+.jumbotron {
+    margin-top: -5px;
+    padding-top: 1em;
+    background-color: #ffb6b9;
+}
+
+
+.page-title {
+    font-family: 'Ubuntu Mono', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #851d41 !important;
+}
+
+
+.page-subtitle {
+    font-family: 'Ubuntu-Light', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: .9;
+    color: #e32249 !important;
+}
+
+.my-4 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.selection-card-view {
+    padding: 5px !important;
+}
+
+.selected {
+    padding: 0px !important;
+    border: 5px #28a745;
+    border-style: solid;
+}
+
+.selection-card-view :hover {
+    cursor: pointer;
+}
+
+.card {
+    height: 35rem !important;
+}
+
+
+.card-img-top {
+    height: 50%;
+}
+
+.card-text {
+    height: 60%;
+    overflow-y: auto;
+}
+
+
+.attribution-card-view {
+    padding: 5px !important;
+}
+
+.attribution-card-view .card {
+    height: 43rem !important;
+}
+
+.criterion-title {
+    font-family: 'Ubuntu Mono', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #851d41 !important;
+    text-align: center;
+}
